@@ -1,0 +1,1 @@
+export { WelcomeAdmin } from './Welcome'

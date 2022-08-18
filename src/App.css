@@ -6,6 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-links {
+  display: inline-block;
+  height: 20px;
+  background-color:white;/*will change background-color of element */
+  color: green; /*will change color of text within the element */
+  text-decoration: none;
+  font-size: medium;
+  
+  }
+  
+  .nav-links:hover {
+  background-color:green; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,7 +37,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.add-rest{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 .App-link {
   color: #61dafb;
 }
